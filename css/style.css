@@ -246,6 +246,8 @@ a{
 .box-cont-count{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    justify-content: center;
 }
 .box-year-bout span{
     font-weight: 900;
